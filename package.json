@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "test": "ava"
+  },
+  "name": "event-emitter-fun",
+  "description": "Fun with Node's event emitter; source code for an article @ ifelse.io",
+  "version": "1.0.0",
+  "main": "emitter.js",
+  "directories": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markthethomas/eventEmitterFun.git"
+  },
+  "author": "Mark Thomas <markthethomas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markthethomas/eventEmitterFun/issues"
+  },
+  "homepage": "https://github.com/markthethomas/eventEmitterFun#readme",
+  "devDependencies": {
+    "ava": "^0.11.0"
+  },
+  "dependencies": {
+    "beeper": "^1.1.0",
+    "got": "^6.1.1"
+  }
+}
