@@ -46,13 +46,13 @@ test('can trigger an event with arguments', t => {
 
 test('can trigger multiple callbacks on an event', t => {
   (function() {
-    var baz = 'HauteLook';
+    var baz = 'baz';
 
     Events.on('foo', function() {
-      t.is(baz, 'Nordstomrack');
+      t.is(baz, 'bar');
     });
 
-    baz = 'Nordstomrack';
+    baz = 'bar';
   })();
 
   var bar = 1;
